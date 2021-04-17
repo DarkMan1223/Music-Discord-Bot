@@ -163,7 +163,7 @@ module.exports = {
       const newsong = new MessageEmbed()
         .setTitle("<:Playing:769665713124016128>"   +song.title)
         .setURL(song.url)
-        .setColor("#c219d8")
+        .setColor("#c219d8") 
         .setThumbnail(thumb)
         .setFooter(`Requested by: ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
         .addField("Duration:", `\`${song.duration} Minutes\``, true)
