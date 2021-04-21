@@ -14,7 +14,7 @@ module.exports = {
     //wenn memberchannel nicht der botchannel ist
     if (member.voice.channel !== member.guild.me.voice.channel) {
     //Send the message to the MEMBER
-      member.send(resultsEmbed);
+      member.send(resultsEmbed); 
       //return false that it ends the command
       return false;
     }
